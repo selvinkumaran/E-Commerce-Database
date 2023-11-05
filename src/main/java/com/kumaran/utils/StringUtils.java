@@ -1,0 +1,48 @@
+package com.kumaran.utils;
+
+public class StringUtils {
+    public static final String WELCOME_MESSAGE = " \uD83D\uDD30 \uD83D\uDD30 \uD83D\uDD30 \uD83D\uDD30 \uD83D\uDD30 WELCOME TO JAVA SHOPPING APPLICATION \uD83D\uDD30 \uD83D\uDD30 \uD83D\uDD30 \uD83D\uDD30 \uD83D\uDD30 ";
+    public static final String AUTH_MENU = "1. LOGIN\n" + "2. REGISTER";
+    public static final String ENTER_CHOICE = "PLEASE ENTER YOUR CHOICE : ";
+    public static final String INVALID_CHOICE = " ❌ ❌ ❌ INVALID CHOICE PLEASE ENTER A VALID CHOICE  ❌ ❌ ❌ ";
+    public static final String ENTER_EMAIL = "PLEASE ENTER YOUR EMAIL : ";
+    public static final String ENTER_PASSWORD = "PLEASE ENTER YOUR PASSWORD : ";
+    public static final String ENTER_NAME = "PLEASE ENTER YOUR NAME: ";
+    public static final String ENTER_PASSWORD_AGAIN = "PLEASE ENTER YOUR PASSWORD AGAIN : ";
+    public static final String REGISTRATION_SUCCESSFUL = " ✅ ✅ ✅ ✅ ✅ REGISTRATION SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String INPUT_MISMATCH = " ❌ ❌ ❌ ❌ ❌ INPUT MISMATCH ❌ ❌ ❌ ❌ ❌ \n"+"NAME : FIRST LETTER MUST BE CAPITAL\n"+"EMAIL FORMAT : example@gmail.com \n"+"PASSWORD MUST CONTAIN ONE UPPERCASE, ONE LOWERCASE, ONE NUMBER, ONE SPECIAL CHARACTER\n"+"PASSWORD AND CONFIRM PASSWORD MUST BE SAME";
+    public static final String INVALID_CREDENTIALS = " ⚠\uFE0F⚠\uFE0F⚠\uFE0F⚠\uFE0F⚠\uFE0F INVALID CREDENTIALS ⚠\uFE0F⚠\uFE0F⚠\uFE0F⚠\uFE0F⚠\uFE0F ";
+    public static final String HOME_MENU = "1. CATEGORIES\n" + "2. PRODUCTS\n" + "3. CART\n" + "4. ORDER\n" + "5. LOGOUT ";
+    public static final String CATEGORY_MENU = "  \uD83D\uDCF1 \uD83D\uDDA5 \uD83D\uDC55 \uD83D\uDC5F \uD83D\uDCF1 \uD83D\uDDA5 \uD83D\uDC55 \uD83D\uDC5F CATEGORY \uD83D\uDC5F \uD83D\uDC55 \uD83D\uDDA5 \uD83D\uDCF1 \uD83D\uDCF1 \uD83D\uDDA5 \uD83D\uDC55 \uD83D\uDC5F";
+    public static final String PRODUCT_MENU = "    ☣ ⌖ ☣ ⌖ ☣ ☣ ⌖ ☣ ⌖ ☣ PRODUCTS ☣ ⌖ ☣ ⌖ ☣ ☣ ⌖ ☣ ⌖ ☣ ";
+    public static final String BACK_OPTION = "99. ☚ BACK ";
+    public static final String CART_SUCCESS = " ✅ ✅ ✅ PRODUCT ADDED TO CART SUCCESSFULLY ✅ ✅ ✅ ";
+    public static final String EMPTY_CART = " \uD83D\uDE2C \uD83D\uDE2C \uD83D\uDE2C \uD83D\uDE2C \uD83D\uDE2C YOUR CART IS EMPTY \uD83D\uDE2C \uD83D\uDE2C \uD83D\uDE2C \uD83D\uDE2C \uD83D\uDE2C ";
+    public static final String CART = "       \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 CART \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 \uD83D\uDED2 ";
+    public static final String TOTAL_PRICE = " TOTAL PRICE -₹. ";
+    public static final String PRINT_CHECKOUT = "88. CHECKOUT ";
+    public static final String STYLE = " ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ☆ ★ ";
+    public static final String LOGIN_SUCCESSFULLY = "       ✅ ✅ ✅ ✅ ✅  LOGIN SUCCESSFULLY ✅ ✅ ✅ ✅ ✅  ";
+    public static final String LOGOUT = "       ✅ ✅ ✅ ✅ ✅  LOGOUT SUCCESSFULLY ✅ ✅ ✅ ✅ ✅  ";
+    public static final String ADMIN_MENU = "1. VIEW_USERS\n" + "2. PRODUCTS\n" + "3. CATEGORY\n" + "4. VIEW_ORDER\n" + "5. LOGOUT ";
+    public static final String VIEW_USERS = "     \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1 LOGGED IN USERS \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1 \uD83D\uDEE1  \uD83D\uDEE1 \uD83D\uDEE1 ";
+    public static final String VIEW_ORDERS = "       ------------------- ORDERS --------------------- ";
+    public static final String ADMIN_PRODUCT_MENU = "1. VIEW PRODUCTS\n" + "2. ADD PRODUCTS\n" + "3. EDIT PRODUCTS\n" + "4. DELETE PRODUCTS\n" + "5. BACK";
+    public static final String PRODUCTS_ADDED_SUCCESS = "   ✅ ✅ ✅ ✅ ✅ PRODUCTS ADDED SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String ENTER_TITLE = "PLEASE ENTER PRODUCT NAME : ";
+    public static final String ENTER_DESCRIPTION = "PLEASE ENTER PRODUCT DESCRIPTION : ";
+    public static final String ENTER_PRICE = "PLEASE ENTER PRODUCT PRICE :";
+    public static final String ENTER_STOCKS = "PLEASE ENTER PRODUCT STOCKS :";
+    public static final String ENTER_CATEGORY = "PLEASE ENTER PRODUCT CATEGORY :";
+    public static final String ADMIN_CATEGORY_MENU = "1. VIEW CATEGORY\n" + "2. ADD CATEGORY\n" + "3. EDIT CATEGORY\n" + "4. DELETE CATEGORY\n" + "5. BACK";
+    public static final String CATEGORY_ADDED_SUCCESS = "  ✅ ✅ ✅ ✅ ✅ CATEGORY ADDED SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String ENTER_CATEGORY_NAME = "PLEASE ENTER CATEGORY NAME :";
+    public static final String ENTER_CATEGORY_ID = "PLEASE ENTER CATEGORY ID :";
+    public static final String CATEGORY_EDITED_SUCCESS = "✅ ✅ ✅ ✅ ✅ CATEGORY EDITED SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String CATEGORY_DELETED_SUCCESS = "✅ ✅ ✅ ✅ ✅ CATEGORY DELETED SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String PRODUCT_ADDED_SUCCESS = "  ✅ ✅ ✅ ✅ ✅ PRODUCT ADDED SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String PRODUCT_EDITED_SUCCESS = "  ✅ ✅ ✅ ✅ ✅ PRODUCT EDITED SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String PRODUCT_DELETED_SUCCESS = "✅ ✅ ✅ ✅ ✅ PRODUCT DELETED SUCCESSFULLY ✅ ✅ ✅ ✅ ✅ ";
+    public static final String ENTER_ID = "PLEASE ENTER ID :";
+    public static final String PRODUCT_NOT_EXIST = "      --------------- PRODUCT DOES NOT EXIST ---------------- ";
+}
